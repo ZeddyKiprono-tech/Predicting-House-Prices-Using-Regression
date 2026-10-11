@@ -27,11 +27,12 @@ The dataset used is 'boston.csv' containing **506 observations and 14 columns**:
 From the data inspection no missing values were found, and the columns were numeric.
 
 ### Variables used
+
 The model uses all columns except `MEDV` as predictors:
   --------------------------------------------------------------------------------------------------------
   Variable                            Description in the analysis
   ----------------------------------- ---------------------------------------------------------------------
-  `CRIM`                              Per-capita crime rate by town
+* `CRIM`                              Per-capita crime rate by town
   `ZN`                                Proportion of residential land zoned for lots over 25,000 sq. ft.
   `INDUS`                             Proportion of non-retail business acres per town
   `CHAS`                              Charles River dummy variable
@@ -44,8 +45,8 @@ The model uses all columns except `MEDV` as predictors:
   `PTRATIO`                           Pupil-teacher ratio by town
   `B`                                 Dataset-provided demographic transformation variable
   `LSTAT`                             Dataset-provided lower-status population percentage variable
-  `MEDV`                              Median owner-occupied home value; the target to predict
-  -----------------------------------------------------------------------------------------------------------
+  `MEDV`                              Median owner-occupied home value; the target to predict**
+-----------------------------------------------------------------------------------------------------------
 
 ## Methodology
 
